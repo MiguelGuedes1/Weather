@@ -64,7 +64,7 @@ const Hero = () => {
                     <input
                         className='text-center p-3 rounded text-black border-none text-sm focus:outline-none focus:border-none '
                         type="text"
-                        placeholder='Digite uma cidade'
+                        placeholder='Digite uma localização'
                         value={location}
                         onKeyDown={searchLocation}
                         onChange={(event) => setLocation(event.target.value)}
